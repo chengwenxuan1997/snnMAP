@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+import(parallel)
+importFrom(Rcpp, sourceCpp)
+importFrom(cppRouting, makegraph)
